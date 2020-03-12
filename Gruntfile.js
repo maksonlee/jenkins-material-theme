@@ -22,7 +22,9 @@ module.exports = function (grunt) {
         'deep-orange': '#FF5722',
         'brown': '#795548',
         'grey': '#757575',
-        'blue-grey': '#607D8B'
+        'blue-grey': '#607D8B',
+        'production': '#0747A6',
+        'test': '#802038'
     };
 
     var fileCreatorTask = {};
