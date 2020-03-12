@@ -58,6 +58,8 @@ a, a:hover, a:visited, a:link {
   top: 0;
   letter-spacing: 1px;
   z-index: 2000;
+  background: url('pg-logo.png') no-repeat, @color-primary;
+  background-size: auto auto, cover;
 
   .login {
     top: inherit;
@@ -65,6 +67,12 @@ a, a:hover, a:visited, a:link {
 
   .login b {
     font-weight: 400
+  }
+
+  .logo {
+    #jenkins-home-link img {
+      opacity: 0;
+    }
   }
 
   #search-box {
